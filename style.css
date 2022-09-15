@@ -223,7 +223,7 @@ transition: 0.4s;}
   .coluna {
        display:block;
        width: 80%;
-       height: ;
+       height: 50%;
        margin: 30px;
        padding: 20px;
        text-align: center;
@@ -236,9 +236,7 @@ transition: 0.4s;}
 
 form{
     padding: 20px;
-    margin: auto;
-    height: 5%;
- 
+   
     
 
 }
@@ -246,8 +244,7 @@ form{
 li,a{
     display: block;
     margin: auto;
-    padding: 6px;
-
+    padding: 4px;
 }
 .redesocial{
     padding: 3px;
