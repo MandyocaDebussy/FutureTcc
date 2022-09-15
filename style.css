@@ -221,13 +221,15 @@ transition: 0.4s;}
 @media screen and (max-width:720px) {
   
   .coluna {
-       display:block;
-       width: 80%;
-       margin: 30px;
+       
+       width: 69%;
+       margin-left: 60px;
+       height: 30%;
        padding: 20px;
        text-align: center;
        font-size: 5px;
        border-radius: 10px;
+       background-color: #a5384aa6;
         
     }
 
