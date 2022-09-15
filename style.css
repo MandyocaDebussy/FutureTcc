@@ -222,7 +222,7 @@ transition: 0.4s;}
   
   .coluna {
        display:block;
-       width: 75%;
+       width: 69%;
        margin: 30px;
        padding: 20px;
        text-align: center;
@@ -234,7 +234,7 @@ transition: 0.4s;}
  
 
 form{
-    padding: 10px;
+    padding:;
     margin: auto;
     height: 5%;
  
