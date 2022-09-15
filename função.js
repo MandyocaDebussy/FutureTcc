@@ -1,13 +1,6 @@
 
 
 
-
-function modoEscuro() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-        }
-
-
        function mudarTamanho(){
                 if (window.innerWidth >= 720){
                 itens.style.display ='block'

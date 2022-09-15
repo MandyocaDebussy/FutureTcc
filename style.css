@@ -28,7 +28,7 @@ body{
 
 
 main{
-
+    width: 100%;
     background-color: #8f2ec7;
     font-family: 'cesta', cursive;
     color: rgb(255, 255, 255);
@@ -60,7 +60,7 @@ i#burguer{
 }
 
 #burguer:hover{
-    background-color: #f86c8a;
+    background-color: #ff6c8c;
     display: ;
 }
 
@@ -97,8 +97,8 @@ i#burguer{
     padding-top: 70px;
     letter-spacing: 2px;
     background-color: #331e1e63;
-    border-radius: 10px;
-    margin: 10px;
+    
+    margin: 0px;
 
 }
 
@@ -109,7 +109,7 @@ article>p{
     text-align: center;
 }
 
-
+/*ajustar quadro de login*/
 .conteudo{
     
     background-color: #331e1ebd;   
@@ -118,12 +118,11 @@ article>p{
     width: 350px;
     height:360px;
     float: left;
-    position: relative;
-   left: 12%;
-     /*ajustar aqui para nao deixar com row abaixo*/
+    margin-left: 13%;
+    margin-top: 14px;
     border-radius: 10px;
     box-shadow: 3px 6px 10px 2px #97695d;
-top:25px;
+
 transform: scale(1);
 animation: pulse 2s normal;
 }
@@ -178,6 +177,7 @@ span{
 
 .redesocial{
     display: inline-flex;
+    margin: auto;
 }
 
 
@@ -220,7 +220,7 @@ transition: 0.4s;}
 
 /*ajuste de tela*/
 /*ajuste de tela*/
-@media screen and (max-width:720px) and (max-height:1900px) {
+@media screen and (max-width:720px) {
    
     .coluna {
        display:block;
@@ -229,6 +229,7 @@ transition: 0.4s;}
        padding: 30px;
        text-align: center;
        font-size: 5px;
+       border-radius: 10px;
         
     }
 
@@ -243,10 +244,11 @@ form{
 
 .conteudo{
     
-    display:flex;
+    display:block;
     margin: auto;
-    max-width: 100%;
+    margin-left: 50px;
     padding: 10px;
+    
    
     
 }
