@@ -219,7 +219,8 @@ transition: 0.4s;}
 
 
 /*ajuste de tela*/
-@media screen and (max-width:500px) {
+/*ajuste de tela*/
+@media screen and (max-width:600px) {
     .coluna {
        display:block;
        width: 80vw;
@@ -240,10 +241,12 @@ form{
 }
 
 .conteudo{
+    
+    display:block;
     margin: auto;
-    display: block;
-    width:380px;
-    height: 420px;
+    width:350px;
+    height: 400px;
+    margin-left:10px ;
 }
 
 li,a{
