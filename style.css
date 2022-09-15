@@ -223,7 +223,6 @@ transition: 0.4s;}
   .coluna {
        display:block;
        width: 80%;
-       height: 50%;
        margin: 30px;
        padding: 20px;
        text-align: center;
