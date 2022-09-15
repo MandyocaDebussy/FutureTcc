@@ -60,7 +60,7 @@ i#burguer{
 }
 
 #burguer:hover{
-    background-color: #ff6c8c;
+    background-color: #f86c8a;
     display: ;
 }
 
@@ -220,7 +220,7 @@ transition: 0.4s;}
 
 /*ajuste de tela*/
 /*ajuste de tela*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:720px) and (max-height:1900px) {
    
     .coluna {
        display:block;
@@ -232,10 +232,7 @@ transition: 0.4s;}
         
     }
 
-    p{
-        padding:30px;
-        text-align: center;
-    }
+ 
 
 form{
     padding: 20px;
@@ -246,10 +243,10 @@ form{
 
 .conteudo{
     
-    display:block;
+    display:flex;
     margin: auto;
+    max-width: 100%;
     padding: 10px;
-    position: relative;
    
     
 }
@@ -260,9 +257,9 @@ li,a{
     padding: 4px;
 }
 .redesocial{
-    display: inline-flex;
+    display: flex
     padding: 3px;
-    letter-spacing: 0px;
+    letter-spacing: 20px;
 }
 
 i#burguer{
