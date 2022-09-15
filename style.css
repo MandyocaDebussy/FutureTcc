@@ -99,12 +99,13 @@ i#burguer{
     background-color: #331e1e63;
     border-radius: 10px;
     margin: 10px;
+
 }
 
 article>p{
     margin-top: 40px;
     font-weight: 10px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -112,13 +113,12 @@ article>p{
 .conteudo{
     
     background-color: #331e1ebd;   
-    padding-top:60px;
-    margin: auto;
+    padding-top:30px;
     text-align: center;
     width: 350px;
     height:360px;
     float: left;
-    position:relative;
+    position: relative;
    left: 12%;
      /*ajustar aqui para nao deixar com row abaixo*/
     border-radius: 10px;
@@ -221,19 +221,14 @@ transition: 0.4s;}
 /*ajuste de tela*/
 /*ajuste de tela*/
 @media screen and (max-width:600px) {
-    body{
-        width:100%;
-        margin: auto;
-    }
+   
     .coluna {
        display:block;
-       width: 80vw;
+       width: 75vw;
        margin: 20px;
        padding: 30px;
        text-align: center;
        font-size: 5px;
-       
-       
         
     }
 
