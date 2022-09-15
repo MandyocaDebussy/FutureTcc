@@ -28,7 +28,7 @@ body{
 
 
 main{
-    width: 100%;
+    
     background-color: #8f2ec7;
     font-family: 'cesta', cursive;
     color: rgb(255, 255, 255);
@@ -91,7 +91,7 @@ i#burguer{
 
     float:left;
     width: 50vw;
-    height: 60vh;
+    height: 64vh;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     padding-top: 70px;
