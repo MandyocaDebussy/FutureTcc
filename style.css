@@ -219,12 +219,21 @@ transition: 0.4s;}
 /*ajuste de tela*/
 /*ajuste de tela*/
 @media screen and (max-width:720px) {
-   
+   body{
+    padding: 0;
+    margin: 0;
+   }
+
+
+
+
+
     .coluna {
        display:block;
-       width: 75vw;
-       margin: 20px;
-       padding: 30px;
+       width: 80%;
+       height: 50%;
+       margin: 30px;
+       padding: 20px;
        text-align: center;
        font-size: 5px;
        border-radius: 10px;
@@ -240,14 +249,12 @@ form{
 
 }
 
-
 li,a{
     display: block;
     margin: auto;
     padding: 4px;
 }
 .redesocial{
-    display: flex
     padding: 3px;
     letter-spacing: 20px;
 }
