@@ -221,6 +221,10 @@ transition: 0.4s;}
 /*ajuste de tela*/
 /*ajuste de tela*/
 @media screen and (max-width:600px) {
+    body{
+        width:100%;
+        margin: auto;
+    }
     .coluna {
        display:block;
        width: 80vw;
@@ -270,5 +274,4 @@ i#burguer{
 }
 
 }
-    
 
