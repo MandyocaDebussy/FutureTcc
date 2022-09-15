@@ -1,4 +1,10 @@
 # FutureTcc
 https://mandyocadebussy.github.io/FutureTcc/front.html
 
-Este trabalho terá o foco como conclusão do curso de Analise e desenvolvimento de Sistema.
+
+Trabalho de conclusão de curso que ainda será feito aprimoramentos.
+Com isso, aos poucos irei vir aqui para justar pontos e modificações desse trabalho.
+Tem alguns erros que serão ajustados e espero no futuro poder
+mostrar como tudo isso ficou feito de forma pratica e dinamica.
+#
+![alt text](https://i.imgur.com/CbcqEbI.png)
