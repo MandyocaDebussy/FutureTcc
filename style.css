@@ -44,7 +44,6 @@ menu{
     text-align: center;
     letter-spacing: 3px;
 
-
     
   
 }
@@ -92,7 +91,7 @@ i#burguer{
 
     float:left;
     width: 50vw;
-    height: 64vh;
+    height: 70vh;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     padding-top: 70px;
@@ -246,7 +245,7 @@ form{
 .conteudo{
     
     display:block;
-  
+    margin: auto;
     margin-left: 50px;
     padding: 10px;
     
@@ -272,7 +271,6 @@ i#burguer{
     display: block;
     text-align: center;
     padding: 8px;
-    margin: 0;
 }
 
 }
