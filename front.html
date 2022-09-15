@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="">
+
+    <title>Document</title>
+</head>
+<body onresize="mudarTamanho()">
+    <main>
+        <h1>Trabalho de conclusão de curso</h1>
+        <p>Aplicando um texto aqui para teste</p>
+        <!--escrever algo aqui futuramente-->
+
+    </main>
+    <i id="burguer" class="bi-menu-up" onclick="clickMenu()"></i>
+    <!--chama o menu versão mobile-->
+<menu id="itens">
+   
+    <ul class="mobile">
+           <li><a href="#" target="_blank" >Contato</a></li>
+        <li><a href="#" target="_blank">Parceria</a></li>
+        <li><a href="#" target="_blank">Causas</a></li>
+        <li><a href="#" target="_blank">Produtos</a></li>
+        <li><a href="#" target="_blank">Serviços</a></li>
+    </ul>
+</menu>
+</main>
+        <article class="coluna">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repudiandae <br>veritatis? Autem magnam quasi ipsa neque debitis explicabo,<br> doloremque veritatis a <br>deleniti repellendus non accusamus ea sit quas aut. Repudiandae.
+            Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.<br>  Assumenda iusto nobis sequi, adipisci voluptatum dolor accusantium corrupti recusandae incidunt dignissimos. <br> Debitis nulla sit eveniet<br>  ipsum et enim, sunt saepe tempora.
+        lo</p>
+        </article>
+        <section>
+        <div class="conteudo">
+            <form action="none9" autocomplete="on" method="post"><!--preencher formulario integrado a uma linguagem de programação+banco de dados-->
+                <span>Acesse aqui o seu cadastro</span>
+                <br>
+                <br>
+                <label for="inome">Usuário</label><br>
+                <input type="text" name="nome" id="inome" required placeholder="nome" class="usuario">
+                <br>
+                <label for="inome">Senha</label><br>
+                <input type="password" name="senha" id="isenha" required placeholder="senha" class="senha"><br>
+                
+                <input type="checkbox" name="conectado" id="iconect">
+                   <label for="iconect" style="font-family: 'Courier New', Courier, monospace; font-size:small;">Manter-me conectado</label>
+                
+                <br>
+                <!--Insetir linguagem JS nessa parte -->
+                 <button class="butão" onclick="myFunciotion()">Enviar</button>
+
+                <input class="reset" type="reset" value="Voltar" onclick="myFunction()">
+              
+                <br>
+                
+                <div class="redesocial">
+                <a href="#" class="instagram"><i class="bi-instagram"></i></a>
+                <a href="#" class="facebook"><i class="bi-facebook"></i></a>
+                <a href="#" class="linkedin"><i class="bi-linkedin"></i></a>
+                </div>
+            </form>
+            </div>
+        </section>
+        <script>
+
+
+//funcionalidade do menu hamburguer
+              function mudarTamanho(){
+                if (window.innerWidth >= 600){
+                itens.style.display ='block'
+              }else{
+                itens.style.display = 'none'
+              }
+            }
+        
+
+            function clickMenu(){
+                if(itens.style.display == 'block'){
+                itens.style.display= 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+
+
+        </script>
+        
+</body>
+</html>
