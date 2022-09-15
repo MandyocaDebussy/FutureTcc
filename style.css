@@ -44,6 +44,7 @@ menu{
     text-align: center;
     letter-spacing: 3px;
 
+
     
   
 }
@@ -245,7 +246,7 @@ form{
 .conteudo{
     
     display:block;
-    margin: auto;
+  
     margin-left: 50px;
     padding: 10px;
     
@@ -271,6 +272,7 @@ i#burguer{
     display: block;
     text-align: center;
     padding: 8px;
+    margin: 0;
 }
 
 }
