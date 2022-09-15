@@ -101,7 +101,7 @@ i#burguer{
 }
 
 article>p{
-    margin-top: 40px;
+    margin-top: 0px;
     font-weight: 10px;
     font-size: 20px;
     text-align: center;
@@ -221,14 +221,13 @@ transition: 0.4s;}
 @media screen and (max-width:720px) {
   
   .coluna {
-       
-       width: 69%;
-       margin-left: 60px;
-       height: 30%;
-       padding: 20px;
+       width: 81vw;
+       margin: auto;
+       height: 10%;
+       padding: 40px;
        text-align: center;
        font-size: 5px;
-       border-radius: 10px;
+       border-radius: 1px;
        background-color: #a5384aa6;
         
     }
