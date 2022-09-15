@@ -232,6 +232,11 @@ transition: 0.4s;}
         
     }
 
+    p{
+        padding:30px;
+        text-align: center;
+    }
+
 form{
     padding: 20px;
     height: 400px;
@@ -244,6 +249,7 @@ form{
     display:block;
     margin: auto;
     padding: 10px;
+    position: relative;
    
     
 }
@@ -256,7 +262,7 @@ li,a{
 .redesocial{
     display: inline-flex;
     padding: 3px;
-    letter-spacing: 20px;
+    letter-spacing: 0px;
 }
 
 i#burguer{
