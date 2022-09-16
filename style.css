@@ -227,13 +227,11 @@ transition: 0.4s;}
        height: 10%;
        padding: 40px;
        text-align: center;
-       font-size: 5px;
+       font-size: 2px;
        border-radius: 1px;
        background-color: #a5384aa6;
         
     }
-
- 
 
 form{
     padding: 20px;
@@ -242,13 +240,20 @@ form{
 
 }
 
+.conteudo{
+    margin:50px;
+    max-width: 100vw;
+    display: block;
+}
+
+
 li,a{
     display: block;
     margin: auto;
     padding: 4px;
 }
 .redesocial{
-    padding: 3px;
+   
     letter-spacing: 20px;
 }
 
