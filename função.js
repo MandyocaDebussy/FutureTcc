@@ -2,7 +2,7 @@
 
 
        function mudarTamanho(){
-                if (window.innerWidth >= 720){
+                if (window.innerWidth >= 700){
                 itens.style.display ='block'
               }else{
                 itens.style.display = 'none'
