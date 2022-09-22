@@ -11,12 +11,12 @@
 
 @font-face {
     font-family: 'Beauty';
-    src: url(font/Beauty.ttf);
+    src: url(font/Hello\ Beauty\ Personal\ Use.ttf);
 }
 
 @font-face {
     font-family:'Beauty2' ;
-    src: url(font/BeautyDemo.ttf);
+    src: url(font/);
 }
 
 *{
@@ -39,16 +39,20 @@ body{
 main{
  
     background-color: #ff91bb;
-    font-family: 'Beauty', cursive;
-    color: rgb(255, 255, 255);
+    font-family: 'Beauty',arial;
+    color: rgb(255, 246, 251);
     padding:20px;
     text-align: center; 
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-shadow: 2px 3px #97695d;
     display: block;
-    font-weight: bold;
+    font-weight:none ;
   
 
 }
+
+
 
 menu{
     background-color:#a7174e8f;
@@ -61,7 +65,7 @@ menu{
 
 /*aqui integra com JS */
 i#burguer{
-    background-color: #8f2ec7b7;
+    background-color: #fd8888b7;
     color:#ffffff;
     font-size: 25px;
     display:none;
@@ -72,6 +76,7 @@ i#burguer{
 
 #burguer:hover{
     background-color: #ff6c8c;
+    transition: 0.8s;
 
 }
 
@@ -108,29 +113,30 @@ i#burguer{
     padding-top: 70px;
     letter-spacing: 2px;
     background-color: #ffbbd72f;
-    
-    margin: 0px;
+    margin:auto;
 
 }
 
 article>p{
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    margin-top:30px;
+    padding-left: 20px;
     font-weight: 10px;
     font-size: 20px;
-    text-align: center;
+    text-align:;
 }
 
 /*ajustar quadro de login*/
 .conteudo{
     
-    background-color: #331e1ebd;   
+    background-color: #c46274;   
     padding-top:30px;
     text-align: center;
     width: 350px;
     height:360px;
     float: left;
     margin-left: 13%;
-    margin-top: 14px;
+    margin-top: 30px;
     border-radius: 10px;
     box-shadow: 3px 6px 10px 2px #97695d;
 
@@ -246,7 +252,7 @@ transition: 0.4s;}
        text-align: center;
        font-size: 2px;
        border-radius: 1px;
-       background-color: #a5384aa6;
+       background-color: #dd4747a6;
        color: #ffffff;
         
     }
@@ -273,15 +279,18 @@ form{
 li,a{
     display: block;
     margin: auto;
-    padding: 4px;
+    padding: 7px;
 }
 .redesocial{
    
     letter-spacing: 20px;
+    text-align: center;
+    padding-left: 20px;
+    
 }
 
 i#burguer{
-    background-color: #8f2ec775;
+    background-color: #e4377fc7;
     color:#ffffff;
     font-size: 25px;
     display: block;
