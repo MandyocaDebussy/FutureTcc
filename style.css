@@ -9,6 +9,15 @@
     src: url(font/PoetsenOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Beauty';
+    src: url(font/Beauty.ttf);
+}
+
+@font-face {
+    font-family:'Beauty2' ;
+    src: url(font/BeautyDemo.ttf);
+}
 
 *{
     margin: 0;
@@ -16,7 +25,7 @@
 }
 
 body{
-    background-image:url(img/fundocesta.jpg) ;
+    background-image:url(img/fundo-aquarela-liquido-abstrato-rosa-blush-com-linhas-douradas-pontos-e-manchas_353323-449.jpg) ;
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -29,22 +38,23 @@ body{
 
 main{
  
-    background-color: #8f2ec7;
-    font-family: 'cesta', cursive;
+    background-color: #ff91bb;
+    font-family: 'Beauty', cursive;
     color: rgb(255, 255, 255);
     padding:20px;
-  text-align: center; 
+    text-align: center; 
     font-size: 20px;
     display: block;
+    font-weight: bold;
   
 
 }
 
 menu{
-    background-color: #542072d5;
+    background-color:#a7174e8f;
     text-align: center;
     letter-spacing: 3px;
-    padding: 10px;
+    /* padding: 10px; */
 
   
 }
@@ -80,11 +90,11 @@ i#burguer{
   }
 
   li>a:hover{
-   background-color: #8c91be;
-   color: rgb(29, 45, 46);
+   background-color: #ffb7d3;
+   color: rgb(221, 0, 85);
    border-radius: 5px;
-   padding: 5px;
-   transition: 0.5s;
+   padding: 10px;
+   transition: 0.6s;
   }
 
   
@@ -94,10 +104,10 @@ i#burguer{
     width: 50vw;
     height: 65vh;
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+    color: rgb(11, 21, 29);
     padding-top: 70px;
     letter-spacing: 2px;
-    background-color: #331e1e63;
+    background-color: #ffbbd72f;
     
     margin: 0px;
 
@@ -237,6 +247,7 @@ transition: 0.4s;}
        font-size: 2px;
        border-radius: 1px;
        background-color: #a5384aa6;
+       color: #ffffff;
         
     }
 

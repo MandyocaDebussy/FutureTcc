@@ -28,7 +28,14 @@ img{
 
 }
 
+.logo{
+    width: 62px;
+}
 
+.nav-item{
+    width:100px;
+    margin-left: 90px;
+}
 
 
 article > p{
@@ -43,6 +50,7 @@ article > p{
  article > p {
     font-size: 80%;
     display: none;
+    
 
  }   
 
