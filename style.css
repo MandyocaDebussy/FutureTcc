@@ -16,7 +16,7 @@
 
 @font-face {
     font-family:'Beauty2' ;
-    src: url(font/);
+    src: url(font/Cassandra\ Personal\ Use.ttf);
 }
 
 *{
@@ -38,12 +38,12 @@ body{
 
 main{
  
-    background-color: #ff91bb;
-    font-family: 'Beauty',arial;
-    color: rgb(255, 246, 251);
-    padding:20px;
+    background-color:rgb(255, 185, 185);
+    font-family: 'Beauty2',arial;
+    color: rgb(255, 255, 255);
+    padding:40px;
     text-align: center; 
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 4px;
     text-shadow: 2px 3px #97695d;
     display: block;
@@ -55,7 +55,7 @@ main{
 
 
 menu{
-    background-color:#a7174e8f;
+    background-color:#cf678f9f;
     text-align: center;
     letter-spacing: 3px;
     /* padding: 10px; */
@@ -71,6 +71,7 @@ i#burguer{
     display:none;
     text-align: center;
     padding: 8px;
+    transition: 0.6ms;
 
 }
 
@@ -114,7 +115,7 @@ i#burguer{
     letter-spacing: 2px;
     background-color: #ffbbd72f;
     margin:auto;
-
+    word-spacing: 4px ;
 }
 
 article>p{
@@ -123,22 +124,22 @@ article>p{
     padding-left: 20px;
     font-weight: 10px;
     font-size: 20px;
-    text-align:;
+    
 }
 
 /*ajustar quadro de login*/
 .conteudo{
     
     background-color: #c46274;   
-    padding-top:30px;
+    padding-top:20px;
     text-align: center;
     width: 350px;
-    height:360px;
+    height:380px;
     float: left;
     margin-left: 13%;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 3px 6px 10px 2px #97695d;
+    box-shadow: 3px 6px 10px 2px #7e1d3591;
 
 transform: scale(1);
 animation: pulse 2s normal;
@@ -148,12 +149,12 @@ animation: pulse 2s normal;
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 #000000b3;
+		box-shadow: 0 0 0 0 #fd4c87b3;
 	}
 
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 10px 10px #757943a2;
+		box-shadow: 0 0 10px 10px #ff195ea2;
 	}
 
 	100% {
@@ -163,12 +164,15 @@ animation: pulse 2s normal;
 }
 
 
-span{
-    text-align: center;
+form > span{
+   
     color: #ffffff;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    padding:5px ;
     font-size: 30px;
+    letter-spacing: 1px;
+    z-index: auto;
    
 
 
@@ -177,7 +181,7 @@ span{
 
 
 .usuario,.senha{
-
+   
     padding: 10px;
     margin: 10px;
     width:80%;
@@ -189,12 +193,18 @@ span{
 .senha:hover{background-color: #fac3c3;}
 
 
-
-
+.cadastro{
+    color: #dec8e9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top: -1px;
+    
+}
 
 .redesocial{
     display: inline-flex;
     margin: auto;
+
 }
 
 
@@ -239,8 +249,18 @@ transition: 0.4s;}
 /*ajuste de tela*/
 @media screen and (max-width:700px) and (min-height:400px)  {
   
+main{
+    font-size: 13px;
+    letter-spacing: 3px;
+    word-break:break-all;
 
+}
 
+h1{
+    padding: 5px;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+}
 
 
 
@@ -269,12 +289,19 @@ form{
     margin: 20px;
     width: 90vw;
     display: block;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding-bottom:100px ;
     
     
 }
 
+
+.cadastro{
+    letter-spacing: 2px;
+    padding: 10px;
+
+}
 
 li,a{
     display: block;

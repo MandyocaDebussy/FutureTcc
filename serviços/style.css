@@ -7,19 +7,19 @@
     transition: 0.5s;
 }
 .form-control:focus-visible{
-    background-color: #ffd9a8;
+    background-color: #ffe2ed;
     transition: 0.5s;
 }
 
 .text{
     text-align: center;
-    font-weight:;
     padding: 10px;
     margin-top: 10px;
     letter-spacing: 1.4px;
 }
 img{
     width: 50%;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -38,6 +38,13 @@ img{
 }
 
 
+.barra{
+    background-color: #ffd9a8;
+    padding: 20px;
+  
+}
+
+
 article > p{
   
     text-align: center;
@@ -49,14 +56,14 @@ article > p{
 @media screen and  (max-width:700px) and (min-height:400px) {
  article > p {
     font-size: 80%;
-    display: none;
-    
+    display:none;
 
  }   
 
  img{
+    display:;
     height:50vh;
     width: 100vw;
-    padding-bottom:20px ;
+    padding-bottom:40px ;
  }
 }
