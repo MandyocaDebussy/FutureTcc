@@ -48,7 +48,6 @@ img{
 
 .dropdown-item:hover{
   background-color: #ffebf0;
-   
   transition-duration:0.5s;
 }
 
@@ -71,7 +70,8 @@ article > p{
 
  .dropdown-menu{
     background-color: rgb(255, 248, 248);
-   width: 240px;
+   width: 200px;
+   font-size: 15px
 }
 
 
