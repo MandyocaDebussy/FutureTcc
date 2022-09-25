@@ -45,6 +45,15 @@ img{
 }
 
 
+
+.dropdown-item:hover{
+  background-color: #ffebf0;
+   
+  transition-duration:0.5s;
+}
+
+
+
 article > p{
   
     text-align: center;
@@ -59,6 +68,12 @@ article > p{
     display:none;
 
  }   
+
+ .dropdown-menu{
+    background-color: rgb(255, 248, 248);
+   width: 240px;
+}
+
 
  img{
     display:;

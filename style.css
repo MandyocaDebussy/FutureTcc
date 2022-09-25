@@ -102,9 +102,9 @@ i#burguer{
    transition: 0.6s;
   }
 
-  li > a ::after{
+  /* li > a ::after{
     color: #881f39;
-  }
+  } */
 
   
 .coluna{
