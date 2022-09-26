@@ -144,13 +144,12 @@ article>p{
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 3px 6px 10px 2px #7e1d3591;
-
-transform: scale(1);
-animation: pulse 2s normal;
+    transform: scale(1);
+/* animation: pulse 2s normal; */
 }
 
 /*efeito de pulsar na tela*/
-@keyframes pulse {
+/* @keyframes pulse {
 	0% {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 #fd4c87b3;
@@ -165,7 +164,7 @@ animation: pulse 2s normal;
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 #00000000;
 	}
-}
+} */
 
 
 form > p {
