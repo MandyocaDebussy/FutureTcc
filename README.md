@@ -7,4 +7,4 @@ Com isso, aos poucos irei vir aqui para justar pontos e modificações desse tra
 Tem alguns erros que serão ajustados e espero no futuro poder
 mostrar como tudo isso ficou feito de forma pratica e dinamica.
 #
-![alt text](https://i.imgur.com/CbcqEbI.png)
+
