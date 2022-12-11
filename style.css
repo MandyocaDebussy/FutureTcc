@@ -1,9 +1,5 @@
 @charset "UTF-8";
-
-
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
-
 @font-face {
     font-family: 'cesta';
     src: url(font/PoetsenOne-Regular.ttf);
@@ -15,77 +11,56 @@
 }
 
 @font-face {
-    font-family:'Beauty2' ;
+    font-family: 'Beauty2';
     src: url(font/Cassandra\ Personal\ Use.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-image:url(img/fundo-aquarela-liquido-abstrato-rosa-blush-com-linhas-douradas-pontos-e-manchas_353323-449.jpg) ;
-    background-position:center;
-    background-size:cover;
+body {
+    background-image: url(img/fundo-aquarela-liquido-abstrato-rosa-blush-com-linhas-douradas-pontos-e-manchas_353323-449.jpg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-color: #331e1e;
 }
 
-#tema{
-    background-color:#ff557f;
-    padding: 5px;
-}
-
-
-main{
- 
-    background-color:rgb(255, 185, 185);
+main {
+    background-color: rgb(223, 43, 97);
     color: rgb(255, 255, 255);
-    padding:40px;
+    padding: 40px;
     font-size: 15px;
     letter-spacing: 4px;
-    text-shadow: 2px 3px #c51742;
-    display: block;
-    font-weight:none ;
-  
-
+    text-shadow: 2px 3px #c517
 }
 
-
-
-menu{
-    background-color:#cf678f9f;
+menu {
     text-align: center;
     letter-spacing: 3px;
+    background-color: #331e1e;
+    margin-bottom: 30px;
     /* padding: 10px; */
-
-  
 }
+
 
 /*aqui integra com JS */
-i#burguer{
-    background-color: #fd8888b7;
-    color:#ffffff;
+
+i#burguer {
+    background-color: #cf0e38b7;
+    color: #ffffff;
     font-size: 25px;
-    display:none;
+    justify-content: center;
+    display: none;
     text-align: center;
-    padding: 8px;
-    transition: 0.6ms;
-
 }
 
-#burguer:hover{
-    background-color: #ff6c8c;
-    transition: 0.8s;
-
-}
-
-
-
- li,a{
-    
+li,
+a {
+    justify-content: center;
     display: inline-block;
     color: aliceblue;
     margin: 10px;
@@ -93,24 +68,21 @@ i#burguer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  li>a:hover{
-   background-color: #ffb7d3;
-   color: rgb(221, 0, 85);
-   border-radius: 5px;
-   padding: 10px;
-   transition: 0.6s;
-  }
+li>a:hover {
+    border-radius: 5px;
+    color: #ca1e44;
+    transition: 0.3s;
+}
 
-  /* li > a ::after{
+
+/* li > a ::after{
     color: #881f39;
   } */
 
-  
-.coluna{
 
-    float:left;
+/*.coluna {
     width: 50vw;
     height: 65vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -118,37 +90,38 @@ i#burguer{
     padding-top: 70px;
     letter-spacing: 2px;
     background-color: #ffbbd72f;
-    margin:auto;
-    word-spacing: 4px ;
+    margin: auto;
+    word-spacing: 4px;
 }
+*/
 
-article>p{
+article>p {
     /* margin-top: 0px; */
-    margin-top:30px;
+    margin-top: 30px;
     padding-left: 20px;
     font-weight: 10px;
     font-size: 20px;
-    
 }
 
+
 /*ajustar quadro de login*/
-.conteudo{
-    
-    background-color: #c46274;   
-    padding-top:20px;
-    text-align: center;
-    width: 350px;
-    height:380px;
-    float: left;
-    margin-left: 13%;
-    margin-top: 20px;
+
+.conteudo {
+    background-color: #e72b4e;
+    margin: auto;
+    padding: 20px;
+    max-width: 350px;
+    height: 380px;
     border-radius: 10px;
     box-shadow: 3px 6px 10px 2px #7e1d3591;
     transform: scale(1);
-/* animation: pulse 2s normal; */
+    /* animation: pulse 2s normal; */
 }
 
+
 /*efeito de pulsar na tela*/
+
+
 /* @keyframes pulse {
 	0% {
 		transform: scale(0.95);
@@ -166,166 +139,70 @@ article>p{
 	}
 } */
 
-
-form > p {
-   
+form>p {
     color: #ffffff;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding:5px ;
+    padding: 10px;
     font-size: 30px;
-    letter-spacing: 1px;
     z-index: auto;
     padding-top: 10px;
 }
 
-
-
-.usuario,.senha{
-    background-color: #fdf9f9;
-    padding: 10px;
-    margin: 10px;
-    width:80%;
-    border-radius:5px;
-    border: none;
-    outline: none;/*retirar bordar de dentro*/
-}
-.usuario:hover{background-color: #ffd4d4;
-transition: all 2s;}
-.senha:hover{background-color:  #ffd4d4;
-    transition: all 2s;}
-
-.cadastro{
-    color: #dec8e9;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:center;
-    margin-top: -1px;
-    
-}
-
-.redesocial{
-    display: inline-flex;
-    margin: auto;
-
-}
-
-
-
-label{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:18px;
-    color: aliceblue;
-    font-weight:bolder;
-    
-}
-
-.butão ,.reset{
-    margin: 10px 20px;
-    width: 100px;
-    padding: 8px;
-    background-color: #dec8e9;
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    font-size: 15px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #331e1e;
-    
-}
-
-
-.butão:hover{
-    background-color: #331e1e;
-    color:#ffffff;
-cursor: pointer;
-transition: 0.4s;}
-
-.reset:hover{
-    background-color: #331e1e;
-    color:#ffffff;
-cursor: pointer;
-transition: 0.4s;}
-
+.conteiner {}
 
 
 /*ajuste de tela*/
+
+
 /*ajuste de tela*/
-@media screen and (max-width:700px) and (min-height:400px)  {
-  
-main{
-    font-size: 10px;
-    letter-spacing: 3px;
-    word-break:break-all;
- 
 
-}
-
-h1{
-    padding: 3px;
-    word-wrap: break-word;
-    letter-spacing: 2px;
-}
-
-  .coluna {
-       width: 80vw;
-       height: 10%;
-       padding: 40px;
-       text-align: center;
-       font-size: 2px;
-       border-radius: 1px;
-       background-color: #dd4747a6;
-       color: #ffffff;
-        
+@media screen and (max-width:700px) and (min-height:400px) {
+    main {
+        font-size: 10px;
+        letter-spacing: 3px;
+        word-break: break-all;
     }
-
-form{
-    padding: 20px;
-   
-    
-
+    h1 {
+        padding: 3px;
+        word-wrap: break-word;
+        letter-spacing: 2px;
+    }
+    .coluna {
+        width: 80vw;
+        height: 10%;
+        padding: 40px;
+        text-align: center;
+        font-size: 2px;
+        border-radius: 1px;
+        background-color: #dd4747a6;
+        color: #ffffff;
+    }
+    form {
+        padding: 20px;
+    }
+    .cadastro {
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+    li,
+    a {
+        display: block;
+        margin: auto;
+        padding: 7px;
+    }
+    .redesocial {
+        letter-spacing: 20px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    i#burguer {
+        background-color: #f11255c7;
+        color: #ffffff;
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        padding: 8px;
+        margin-bottom: 20px;
+    }
 }
-
-.conteudo{
-    margin:auto;
-    margin: 20px;
-    width: 90vw;
-    display: block;
-    margin-top: 60px;
-    margin-bottom: 80px;
-    padding-bottom:50px ;
-    
-    
-}
-
-
-.cadastro{
-    letter-spacing: 2px;
-    padding: 10px;
-
-}
-
-li,a{
-    display: block;
-    margin: auto;
-    padding: 7px;
-}
-.redesocial{
-   
-    letter-spacing: 20px;
-    text-align: center;
-    padding-left: 20px;
-    
-}
-
-i#burguer{
-    background-color: #e4377fc7;
-    color:#ffffff;
-    font-size: 25px;
-    display: block;
-    text-align: center;
-    padding: 8px;
-}
-
-}
-

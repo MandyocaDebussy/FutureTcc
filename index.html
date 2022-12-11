@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="darkmenu.css">
+    <script src="função.js"></script>
+
+    <title>Mytcc</title>
+</head>
+
+<body onresize="mudarTamanho()">
+    <div>
+        <div id="tema"></div>
+    </div>
+    <main>
+        <!-- <h1 class="font">Trabalho de conclusao de curso</h1> -->
+
+        <!--escrever algo aqui futuramente-->
+
+    </main>
+    <i id="burguer" class="bi-menu-up" onclick="clickMenu()"></i>
+    <!--chama o menu versão mobile-->
+    <menu id="itens">
+
+        <ul class="mobile">
+            <li><a href="#" target="_blank">Contato</a></li>
+            <li><a href="#" target="_blank">Historia</a></li>
+            <li><a href="#" target="_blank">Produtos</a></li>
+            <li><a href="serviços/servicos.html" target="_blank">Serviços</a></li>
+        </ul>
+    </menu>
+    </main>
+
+    <section>
+        <div class="conteudo">
+            <form action="none9" autocomplete="on" method="post">
+                <!--preencher formulario integrado a uma linguagem de programação+banco de dados-->
+                <p class="text">Faça seu Cadastro</p>
+                <div class="conteiner">
+                    <label for="inome">Nome do Usuario</label><br>
+                    <input type="text" name="nome" id="inome" required placeholder="nome" class="">
+                    <br>
+                    <label for="inome">Senha</label><br>
+                    <input type="password" name="senha" id="isenha" required placeholder="senha" class="senha"><br>
+                    <label for="itel">Telefone</label><br>
+                    <input type="tel" name="telefone" id="itel" required placeholder="Telefone de Contato" class="telefone">
+                </div>
+            </form>
+        </div>
+        <div class="conteiner_button">
+            <!--Insetir linguagem JS nessa parte -->
+            <button class="butão" onclick="myFunciotion()">Enviar</button>
+
+            <input class="reset" type="reset" value="Voltar" onclick="myFunction()">
+            <br>
+        </div>
+        <div class="redesocial">
+            <!--Lembrar de por isso no lugar-->
+            <a href="https://www.instagram.com/ray.beauty.center/" target="_blank"><i class="bi-instagram"></i></a>
+            <a href=""><i class="bi-whatsapp"></i></a>
+        </div>
+        </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
